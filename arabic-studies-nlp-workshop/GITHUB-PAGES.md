@@ -13,7 +13,7 @@ The workshop source copy also exists at `arabic-studies-nlp-workshop/docs/`. Whe
 - glossary and readings;
 - instructor profile.
 
-The site is intentionally participant-facing. Instructor notes, timing notes, teaching backup plans, and solution outlines remain outside `docs/`.
+The site is intentionally participant-facing. Publicly useful timing, fallback, and pacing guidance is included on the website.
 
 ## Publish With GitHub Pages
 

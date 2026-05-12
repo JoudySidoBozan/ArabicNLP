@@ -42,10 +42,9 @@ The recommended route for a live six-hour session is:
 | Role | First File | Purpose |
 | --- | --- | --- |
 | Participant | [PARTICIPANT-GUIDE.md](PARTICIPANT-GUIDE.md) | Plain-language orientation, setup expectations, and notebook basics |
-| Instructor | [instructor-notes/teaching-plan.md](instructor-notes/teaching-plan.md) | Pedagogical plan, pacing, and facilitation principles |
 | Teaching assistant | [setup/troubleshooting.md](setup/troubleshooting.md) | Common setup problems and beginner-friendly fixes |
 
-For timing, use [instructor-notes/timing.md](instructor-notes/timing.md).
+For the public schedule and participant-facing workshop route, use the GitHub Pages site in [../docs/schedule.html](../docs/schedule.html).
 
 ## Participant Website
 
@@ -63,7 +62,6 @@ To publish it, configure GitHub Pages to deploy from the `/docs` folder. See [GI
 | `data/` | Small sample text, cleaned text, metadata, and data notes |
 | `readings/` | Essential readings, optional readings, and glossary |
 | `exercises/` | Participant exercises and instructor solution outline |
-| `instructor-notes/` | Teaching plan, timing, and backup activities |
 | `slides/` | Slide companion notes and slide deck file |
 | `docs/` | Participant-facing GitHub Pages website |
 

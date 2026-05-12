@@ -41,17 +41,16 @@ The recommended route for a live six-hour session is:
 
 | Role | First File | Purpose |
 | --- | --- | --- |
-| Participant | [PARTICIPANT-GUIDE.md](PARTICIPANT-GUIDE.md) | Plain-language orientation, setup expectations, and notebook basics |
-| Instructor | [instructor-notes/teaching-plan.md](instructor-notes/teaching-plan.md) | Pedagogical plan, pacing, and facilitation principles |
-| Teaching assistant | [setup/troubleshooting.md](setup/troubleshooting.md) | Common setup problems and beginner-friendly fixes |
+| Participant | [arabic-studies-nlp-workshop/PARTICIPANT-GUIDE.md](arabic-studies-nlp-workshop/PARTICIPANT-GUIDE.md) | Plain-language orientation, setup expectations, and notebook basics |
+| Teaching assistant | [arabic-studies-nlp-workshop/setup/troubleshooting.md](arabic-studies-nlp-workshop/setup/troubleshooting.md) | Common setup problems and beginner-friendly fixes |
 
-For timing, use [instructor-notes/timing.md](instructor-notes/timing.md).
+For the public schedule and participant-facing workshop route, use [docs/schedule.html](docs/schedule.html).
 
 ## Participant Website
 
 The folder [docs/](docs/) contains a participant-only GitHub Pages website. It includes the public workshop overview, setup instructions, schedule, participant materials, glossary, readings, and instructor profile.
 
-To publish it, configure GitHub Pages to deploy from the `/docs` folder. See [GITHUB-PAGES.md](GITHUB-PAGES.md).
+To publish it, configure GitHub Pages to deploy from the `/docs` folder. See [arabic-studies-nlp-workshop/GITHUB-PAGES.md](arabic-studies-nlp-workshop/GITHUB-PAGES.md).
 
 ## Repository Structure
 
@@ -63,7 +62,6 @@ To publish it, configure GitHub Pages to deploy from the `/docs` folder. See [GI
 | `data/` | Small sample text, cleaned text, metadata, and data notes |
 | `readings/` | Essential readings, optional readings, and glossary |
 | `exercises/` | Participant exercises and instructor solution outline |
-| `instructor-notes/` | Teaching plan, timing, and backup activities |
 | `slides/` | Slide companion notes and slide deck file |
 | `docs/` | Participant-facing GitHub Pages website |
 
@@ -84,8 +82,8 @@ This workshop treats NLP as both a practical method and an object of scholarly c
 
 ## Document Style
 
-The materials use a consistent format: short introductions, tables for navigation, numbered steps for actions, and quotation-style callouts for important cautions. See [STYLE-GUIDE.md](STYLE-GUIDE.md) for maintainers.
+The materials use a consistent format: short introductions, tables for navigation, numbered steps for actions, and quotation-style callouts for important cautions. See [arabic-studies-nlp-workshop/STYLE-GUIDE.md](arabic-studies-nlp-workshop/STYLE-GUIDE.md) for maintainers.
 
 ## License
 
-This repository is shared under the MIT License. See [LICENSE](LICENSE) for details.
+This repository is shared under the MIT License. See [arabic-studies-nlp-workshop/LICENSE](arabic-studies-nlp-workshop/LICENSE) for details.
