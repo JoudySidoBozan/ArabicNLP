@@ -3,7 +3,7 @@
 **Format:** six-hour introductory workshop  
 **Audience:** Arabic studies and humanities participants with no coding background  
 **Tools:** JupyterLab, Python, CAMeL Tools, sample OpenITI/KITAB-style data  
-**Level:** absolute beginner, academically framed
+**Level:** Beginner friendly; basic Arabic language knowledge expected. 
 
 This repository contains materials for a six-hour introductory workshop on Arabic natural language processing (NLP) for students and researchers in Arabic studies, Islamic studies, Middle Eastern studies, linguistics, digital humanities, and adjacent fields.
 
@@ -47,12 +47,6 @@ The recommended route for a live six-hour session is:
 
 For timing, use [instructor-notes/timing.md](instructor-notes/timing.md).
 
-## Participant Website
-
-The folder [docs/](docs/) contains a participant-only GitHub Pages website. It includes the public workshop overview, setup instructions, schedule, participant materials, glossary, readings, and instructor profile.
-
-To publish it, configure GitHub Pages to deploy from the `/docs` folder. See [GITHUB-PAGES.md](GITHUB-PAGES.md).
-
 ## Repository Structure
 
 | Path | Contents |
@@ -81,10 +75,6 @@ No previous programming knowledge is required. Arabic reading knowledge is helpf
 ## Teaching Principles
 
 This workshop treats NLP as both a practical method and an object of scholarly critique. The goal is not to make participants “fluent in Python” in one day. The goal is to make the basic workflow legible enough that participants can ask better research questions, evaluate tools more critically, and continue learning with confidence.
-
-## Document Style
-
-The materials use a consistent format: short introductions, tables for navigation, numbered steps for actions, and quotation-style callouts for important cautions. See [STYLE-GUIDE.md](STYLE-GUIDE.md) for maintainers.
 
 ## License
 
