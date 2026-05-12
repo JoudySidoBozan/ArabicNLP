@@ -1,0 +1,21 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+
+# Package manager locks
+Pipfile.lock
+poetry.lock
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Materials | Arabic Studies and NLP Workshop</title>
+    <meta name="description" content="Participant-facing materials for the Arabic Studies and NLP workshop.">
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">Arabic Studies and NLP</a>
+        <div class="nav-links">
+          <a href="setup.html">Setup</a>
+          <a href="schedule.html">Schedule</a>
+          <a aria-current="page" href="materials.html">Materials</a>
+          <a href="resources.html">Resources</a>
+          <a href="instructor.html">Instructor</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="section">
+        <p class="eyebrow">Participant materials</p>
+        <h1>What You Will Use</h1>
+        <p class="lead">These are the materials participants will use before and during the workshop.</p>
+      </section>
+
+      <section id="participant-guide" class="section" aria-labelledby="guide">
+        <h2 id="guide">Participant Guide</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Key vocabulary</h3>
+            <p><strong>Terminal or Anaconda Prompt:</strong> a text-based way to ask your computer to open tools.</p>
+            <p><strong>Conda:</strong> a tool that creates a separate workshop environment.</p>
+            <p><strong>JupyterLab:</strong> a browser-based workspace where you run notebooks.</p>
+          </article>
+          <article class="card">
+            <h3>Notebook basics</h3>
+            <p>Read notebooks from top to bottom. Markdown cells explain; code cells run. To run a code cell, click it and press the play button or <code>Shift+Enter</code>.</p>
+          </article>
+          <article class="card">
+            <h3>If something breaks</h3>
+            <p>Use <code>Kernel > Restart Kernel</code>, then run cells again from the top. Errors are normal in a methods workshop.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="files">
+        <h2 id="files">Workshop Files</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>File or folder</th>
+              <th>Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>notebooks/</code></td>
+              <td>Interactive learning notebooks used during the live workshop.</td>
+            </tr>
+            <tr>
+              <td><code>data/</code></td>
+              <td>Small teaching samples for corpus exploration.</td>
+            </tr>
+            <tr>
+              <td><code>setup/</code></td>
+              <td>Installation guide, quick start, troubleshooting, and installation test.</td>
+            </tr>
+            <tr>
+              <td><code>exercises/exercise-sheet.md</code></td>
+              <td>Short practice tasks for individual or pair work.</td>
+            </tr>
+            <tr>
+              <td><code>readings/</code></td>
+              <td>Essential readings, optional readings, and glossary.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note caution">
+          <strong>Academic caution:</strong> the sample data is for learning how workflows operate. It is not a representative corpus of Arabic.
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="exercise">
+        <h2 id="exercise">Exercise Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Exercise</th>
+              <th>Method focus</th>
+              <th>Reflection focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Python strings, <code>print()</code>, <code>len()</code>, <code>split()</code></td>
+              <td>What counts as a character or word?</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Tokenization and normalization</td>
+              <td>What changes when text is standardized?</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Corpus loading, frequency, and search</td>
+              <td>What can a small sample show?</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Written reflection</td>
+              <td>What are the limits of NLP evidence?</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>The website is a participant-facing guide. Use the downloaded repository during the workshop for notebooks and data files.</p>
+      </div>
+    </footer>
+  </body>
+</html>
