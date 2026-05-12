@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setup | Arabic Studies and NLP Workshop</title>
+    <meta name="description" content="Beginner-friendly setup instructions for the Arabic Studies and NLP workshop.">
+    <link rel="stylesheet" href="assets/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">Arabic Studies and NLP</a>
+        <div class="nav-links">
+          <a aria-current="page" href="setup.html">Setup</a>
+          <a href="schedule.html">Schedule</a>
+          <a href="materials.html">Materials</a>
+          <a href="resources.html">Resources</a>
+          <a href="instructor.html">Instructor</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="section">
+        <p class="eyebrow">Before the workshop</p>
+        <h1>Prepare Your Laptop</h1>
+        <p class="lead">These steps create a separate Python environment for the workshop and open JupyterLab in your browser.</p>
+        <div class="note">
+          <strong>If setup fails:</strong> bring your laptop anyway. You can still follow the workshop through the instructor's screen or by pairing with someone whose setup works.
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="overview">
+        <h2 id="overview">Setup Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Action</th>
+              <th>Success marker</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Install Miniconda or Anaconda</td>
+              <td><code>conda --version</code> prints a version number</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Open Terminal or Anaconda Prompt</td>
+              <td>You can type commands</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Move into the workshop folder</td>
+              <td><code>README.md</code> and <code>environment.yml</code> are visible</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Create and activate the environment</td>
+              <td>The prompt shows <code>arabic-studies-nlp-workshop</code></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Start JupyterLab</td>
+              <td>A browser window opens</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section" aria-labelledby="commands">
+        <h2 id="commands">Commands</h2>
+        <p>Open Terminal on macOS or Linux. On Windows, open Anaconda Prompt.</p>
+        <p>Move into the workshop folder. If the folder is on your Desktop, the command may look like this:</p>
+        <pre><code>cd Desktop/arabic-studies-nlp-workshop</code></pre>
+        <p>Check that you are in the right place:</p>
+        <pre><code>ls</code></pre>
+        <p>On Windows Anaconda Prompt, use:</p>
+        <pre><code>dir</code></pre>
+        <p>Create the workshop environment:</p>
+        <pre><code>conda env create -f environment.yml</code></pre>
+        <p>Activate it:</p>
+        <pre><code>conda activate arabic-studies-nlp-workshop</code></pre>
+        <p>Start JupyterLab:</p>
+        <pre><code>jupyter lab</code></pre>
+      </section>
+
+      <section class="section" aria-labelledby="troubleshooting">
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Symptom</th>
+              <th>First thing to check</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>conda</code> is not recognized</td>
+              <td>Use Anaconda Prompt on Windows, or reopen Terminal after installing Conda.</td>
+            </tr>
+            <tr>
+              <td><code>environment.yml</code> is missing</td>
+              <td>Move into the <code>arabic-studies-nlp-workshop</code> folder.</td>
+            </tr>
+            <tr>
+              <td><code>camel_tools</code> does not import</td>
+              <td>Activate <code>arabic-studies-nlp-workshop</code>.</td>
+            </tr>
+            <tr>
+              <td>JupyterLab does not open</td>
+              <td>Copy the <code>http://localhost:</code> link from the terminal into your browser.</td>
+            </tr>
+            <tr>
+              <td>A notebook cell runs for a long time</td>
+              <td>It may be downloading a model. Ask before interrupting it.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Need the full setup files? See the repository files in <code>setup/</code> after downloading the workshop materials.</p>
+      </div>
+    </footer>
+  </body>
+</html>

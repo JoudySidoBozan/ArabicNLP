@@ -1,6 +1,8 @@
 # GitHub Pages Publishing
 
-The participant website lives in `docs/`.
+The participant website used by GitHub Pages lives in the repository-root `docs/` folder.
+
+The workshop source copy also exists at `arabic-studies-nlp-workshop/docs/`. When publishing through GitHub Pages from a branch, GitHub can serve only `/docs` at the repository root, so the deployable copy must be kept at root-level `docs/`.
 
 ## What the Website Includes
 
@@ -23,4 +25,4 @@ The site is intentionally participant-facing. Instructor notes, timing notes, te
 6. Select `/docs` as the publishing folder.
 7. Save.
 
-GitHub will publish the participant website from `docs/`.
+GitHub will publish the participant website from the repository-root `docs/`.
