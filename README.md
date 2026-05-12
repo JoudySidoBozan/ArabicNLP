@@ -3,7 +3,7 @@
 **Format:** six-hour introductory workshop  
 **Audience:** Arabic studies and humanities participants with no coding background  
 **Tools:** JupyterLab, Python, CAMeL Tools, sample OpenITI/KITAB-style data  
-**Level:** absolute beginner, academically framed
+**Level:** Beginner friendly; basic Arabic language knowledge expected. 
 
 This repository contains materials for a six-hour introductory workshop on Arabic natural language processing (NLP) for students and researchers in Arabic studies, Islamic studies, Middle Eastern studies, linguistics, digital humanities, and adjacent fields.
 
