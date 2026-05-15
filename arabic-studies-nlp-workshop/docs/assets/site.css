@@ -211,6 +211,8 @@ h3 {
   border-radius: 6px;
   background: linear-gradient(135deg, var(--gold), #9f6c24);
   color: #140d08;
+  cursor: pointer;
+  font: inherit;
   font-weight: 800;
   text-decoration: none;
   box-shadow: 0 12px 30px var(--shadow);
@@ -306,6 +308,95 @@ h3 {
   background: var(--gold);
   color: #140d08;
   font-weight: 800;
+}
+
+.task-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.task {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 20px;
+}
+
+.task-heading {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.task-number {
+  display: inline-flex;
+  min-width: 74px;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #140d08;
+  font-size: 0.92rem;
+  font-weight: 800;
+}
+
+.task-heading p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.exercise-table select {
+  width: 100%;
+  min-width: 220px;
+  border: 1px solid rgba(214, 168, 79, 0.38);
+  border-radius: 6px;
+  background: #101820;
+  color: var(--ink);
+  font: inherit;
+  padding: 10px 12px;
+}
+
+.exercise-table select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.answer-feedback,
+.exercise-score {
+  color: var(--gold-soft);
+  font-weight: 700;
+}
+
+.exercise-table tr.is-correct td {
+  background: rgba(45, 212, 191, 0.08);
+}
+
+.exercise-table tr.is-incorrect td {
+  background: rgba(181, 82, 57, 0.12);
+}
+
+.exercise-table tr.is-correct .answer-feedback {
+  color: var(--accent);
+}
+
+.exercise-table tr.is-incorrect .answer-feedback {
+  color: #ffb19f;
+}
+
+.exercise-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.exercise-score {
+  margin: 0;
 }
 
 .instructor-panel {

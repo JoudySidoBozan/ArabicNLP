@@ -1,120 +1,35 @@
-# Installation Guide
+# Colab Setup Guide
 
 **Audience:** first-time users  
-**Goal:** create the workshop environment and open JupyterLab  
-**Estimated time:** 20-40 minutes, depending on internet speed
+**Goal:** prepare a laptop and Google account for the workshop Colab notebook  
+**Estimated time:** 5-10 minutes
 
-This guide prepares your computer for the Arabic Studies and NLP workshop. It is written for first-time users. Please move slowly and copy commands exactly.
+Participants do not need to download this repository or install Python locally. The live coding part of the workshop uses Google Colab.
 
-> **Before you begin:** if installation fails, you can still participate through the instructor's screen or a partner's working setup.
+## What You Need
 
-## What Installation Means
-
-The workshop uses Python packages that are not usually installed on a new computer. We use **Conda** to create a separate workshop environment. This keeps the workshop tools together in one place.
-
-You only need to do the installation once.
-
-## Installation Overview
-
-| Step | Action | Success marker |
-| --- | --- | --- |
-| 1 | Install Miniconda or Anaconda | `conda --version` prints a version number |
-| 2 | Open Terminal or Anaconda Prompt | You can type commands |
-| 3 | Move into the workshop folder | `README.md` and `environment.yml` are visible |
-| 4 | Create the environment | Conda finishes without an error |
-| 5 | Activate the environment | The prompt shows the workshop environment name |
-| 6 | Start JupyterLab | A browser window opens |
-| 7 | Open the first notebook | A code cell prints output |
-
-## Step 1: Install Miniconda or Anaconda
-
-Install either Miniconda or Anaconda before the workshop:
-
-- Miniconda: https://docs.conda.io/en/latest/miniconda.html
-- Anaconda: https://www.anaconda.com/download
-
-If you are unsure which one to choose, use Miniconda. It is smaller.
-
-After installation, close and reopen Terminal or Anaconda Prompt.
-
-## Step 2: Open the Correct Command Window
-
-Use the command window for your operating system:
-
-| System | Open this |
+| Requirement | Why it matters |
 | --- | --- |
-| macOS | `Terminal` |
-| Windows | `Anaconda Prompt` from the Start menu |
-| Linux | Your usual terminal application |
+| Laptop with internet access | You will work in a browser during the live session |
+| Gmail/Google account | Colab and Google Drive require a Google account |
+| About 6 GB free Google Drive storage | Colab may need space for notebook copies, package data, and outputs |
+| Modern browser | Chrome, Firefox, Edge, or Safari is enough |
 
-In the workshop, “terminal” means this command window.
+## Open the Workshop Notebook
 
-## Step 3: Go to the Workshop Folder
+Use this shared Colab link:
 
-Your command window needs to be inside the repository folder before you create the environment.
+<https://colab.research.google.com/drive/1Y3qCbD6Gw1KEw-lixQx1rI6WlyWnrnDS?usp=sharing#scrollTo=X3KV4vNDDtG8>
 
-If the folder is on your Desktop, the command may look like this:
+If Colab asks you to sign in, use your Google account. If Colab asks you to save a copy, save it to your own Google Drive.
 
-```bash
-cd Desktop/arabic-studies-nlp-workshop
-```
+## Before the Workshop
 
-If the folder is somewhere else, ask the instructor for help. You can also drag the folder into many terminal windows to paste its path.
-
-To check that you are in the right place, run:
-
-```bash
-ls
-```
-
-On Windows Anaconda Prompt, use:
-
-```bash
-dir
-```
-
-You should see files such as `README.md`, `environment.yml`, `notebooks`, and `setup`.
-
-## Step 4: Create the Workshop Environment
-
-Run this command from inside the workshop folder:
-
-```bash
-conda env create -f environment.yml
-```
-
-This step may take several minutes. It downloads Python and the required packages.
-
-## Step 5: Activate the Environment
-
-Run:
-
-```bash
-conda activate arabic-studies-nlp-workshop
-```
-
-After this works, you may see `(arabic-studies-nlp-workshop)` at the beginning of the command line. That is a good sign.
-
-## Step 6: Open JupyterLab
-
-Run:
-
-```bash
-jupyter lab
-```
-
-A browser window should open. If it does not open automatically, the terminal usually prints a link beginning with `http://localhost:`. Copy that link into your browser.
-
-## Step 7: Open the First Notebook
-
-In JupyterLab, open:
-
-```text
-notebooks/00_welcome_and_navigation.ipynb
-```
-
-Run the first code cell. If you see printed output underneath the cell, your installation is ready.
+1. Charge your laptop.
+2. Confirm that you can sign in to your Google account.
+3. Check that Google Drive has about 6 GB free.
+4. Open the Colab link once to make sure the notebook loads.
 
 ## If Something Goes Wrong
 
-Use [troubleshooting.md](troubleshooting.md). If the environment creation fails during the workshop, continue with the instructor's shared screen or the backup activities. Installation problems are common and do not mean you are doing badly.
+Use [troubleshooting.md](troubleshooting.md). If Colab does not work during the workshop, you can still follow from the instructor's shared screen or pair with someone whose notebook is running.

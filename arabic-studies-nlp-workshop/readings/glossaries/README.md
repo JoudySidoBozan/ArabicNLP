@@ -11,6 +11,9 @@ This glossary explains key terms used in the workshop.
 | Markdown cell | A notebook block that contains explanation, headings, or notes |
 | Python | The programming language used in the workshop examples |
 | Jupyter notebook | An interactive document that combines explanation, code, and output |
+| Google Colab | A browser-based notebook service that runs Python code in a cloud runtime |
+| Runtime | The temporary cloud computer that executes code in a Colab notebook |
+| Google Drive | Storage connected to a Google account, used for Colab copies and files |
 | Tokenization | Breaking text into words or smaller units |
 | Normalization | Converting text to a standard form for processing |
 | Morphology | The study of word structure and how words form |

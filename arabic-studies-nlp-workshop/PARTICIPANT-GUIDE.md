@@ -1,9 +1,9 @@
 # Participant Guide
 
 **Purpose:** first orientation for learners new to coding tools  
-**Use before:** `setup/installation-guide.md` and `notebooks/00_welcome_and_navigation.ipynb`
+**Use before:** the live workshop and the shared Google Colab notebook
 
-Welcome. This guide is written for people who have never used Visual Studio Code, Terminal, Python, or Jupyter notebooks before. You do not need to memorize the commands. During the workshop, the instructor will move slowly and you can ask for help at any point.
+Welcome. This guide is written for people who have never used Python, Google Colab, or Jupyter-style notebooks before. You do not need to memorize commands. During the workshop, the instructor will move slowly and you can ask for help at any point.
 
 > **For beginners:** your task is not to become a programmer in one day. Your task is to learn enough of the workflow to understand what the tools are doing to Arabic text.
 
@@ -11,49 +11,49 @@ Welcome. This guide is written for people who have never used Visual Studio Code
 
 | Term | Meaning in this workshop |
 | --- | --- |
-| Folder | This repository, which contains all notebooks, data, and instructions |
-| Terminal or Anaconda Prompt | A text-based way to ask your computer to open tools |
-| Conda | A tool that creates a separate workshop environment |
-| JupyterLab | A browser-based workspace where you run notebooks |
+| Google Colab | A browser-based workspace where you run notebooks without installing Python locally |
+| Google Drive | Storage connected to your Google account, used to save your notebook copy and files |
+| Runtime | The temporary cloud computer that runs your notebook code |
 | Notebook | An interactive document with explanation cells and code cells |
 
 ## Before the Workshop
 
 Please try to complete these steps before the session:
 
-1. Install Miniconda or Anaconda.
-2. Download or clone this repository.
-3. Follow [setup/installation-guide.md](setup/installation-guide.md).
-4. Run the test notebook described in [setup/quick-start.md](setup/quick-start.md).
+1. Bring a laptop with internet access.
+2. Use an existing Gmail/Google account or create one.
+3. Make sure the account has about 6 GB of free Google Drive storage.
+4. Open the shared Colab notebook once before the session if possible:
+   <https://colab.research.google.com/drive/1Y3qCbD6Gw1KEw-lixQx1rI6WlyWnrnDS?usp=sharing#scrollTo=X3KV4vNDDtG8>
 
-If this does not work, do not panic. Bring your laptop anyway. The workshop includes a backup path for people whose installations fail.
+If this does not work, do not panic. Bring your laptop anyway. The workshop includes a backup path for people whose Colab setup fails.
 
 ## Workshop Path
 
 | Step | File | What happens |
 | --- | --- | --- |
 | 1 | `PARTICIPANT-GUIDE.md` | Learn the basic vocabulary |
-| 2 | `setup/installation-guide.md` | Install and prepare the environment |
-| 3 | `setup/test-installation.ipynb` | Check that packages and data load |
-| 4 | `notebooks/00_welcome_and_navigation.ipynb` | Learn how notebooks work |
-| 5 | `notebooks/01...` to `05...` | Work through Arabic NLP examples |
+| 2 | `setup/installation-guide.md` | Check your Colab readiness |
+| 3 | Shared Colab notebook | Open the workshop workspace |
+| 4 | Website exercises | Practice the concepts directly in the browser |
+| 5 | Live Colab session | Work through Arabic NLP examples |
 
 ## How to Read a Notebook
 
-Jupyter notebooks are read from top to bottom.
+Colab notebooks are read from top to bottom.
 
 | Notebook element | What it does |
 | --- | --- |
 | Markdown cell | Contains explanations, headings, or questions |
 | Code cell | Contains Python code that can be run |
 | Output | Appears underneath a code cell after it runs |
-| Kernel | The Python process behind the notebook |
+| Runtime | The cloud session that runs the notebook code |
 
 To run a code cell, click the cell and press the play button, or press `Shift+Enter`.
 
 You are not expected to understand every symbol immediately. At this level, the first goal is to notice what changes when a cell runs.
 
-> **If something breaks:** use `Kernel > Restart Kernel`, then run the cells again from the top.
+> **If something breaks:** use `Runtime > Restart session`, then run the cells again from the top.
 
 ## Workshop Etiquette
 
@@ -65,11 +65,10 @@ You are not expected to understand every symbol immediately. At this level, the 
 
 ## File Map
 
-- Start with `notebooks/00_welcome_and_navigation.ipynb`.
-- Continue through the notebooks in numerical order.
-- Use `exercises/exercise-sheet.md` for short practice tasks.
+- Start with the shared Colab notebook.
+- Use the website Materials page for short interactive practice tasks.
 - Use `readings/glossaries/README.md` whenever a term feels unclear.
-- Use `setup/troubleshooting.md` if the software does not open or a package fails to import.
+- Use `setup/troubleshooting.md` if Colab does not open, storage is full, or a cell fails to run.
 
 ## What This Workshop Is Not
 
