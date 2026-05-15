@@ -33,60 +33,182 @@
         <div class="grid">
           <article class="card">
             <h3>Key vocabulary</h3>
-            <p><strong>Terminal or Anaconda Prompt:</strong> a text-based way to ask your computer to open tools.</p>
-            <p><strong>Conda:</strong> a tool that creates a separate workshop environment.</p>
-            <p><strong>JupyterLab:</strong> a browser-based workspace where you run notebooks.</p>
+            <p><strong>Google Colab:</strong> a browser-based workspace where you run notebooks without installing Python locally.</p>
+            <p><strong>Google Drive:</strong> the storage connected to your Google account, used for saving your Colab copy and files.</p>
+            <p><strong>Runtime:</strong> the temporary computer in the cloud that runs your notebook code.</p>
           </article>
           <article class="card">
             <h3>Notebook basics</h3>
-            <p>Read notebooks from top to bottom. Markdown cells explain; code cells run. To run a code cell, click it and press the play button or <code>Shift+Enter</code>.</p>
+            <p>Read Colab notebooks from top to bottom. Markdown cells explain; code cells run. To run a code cell, click it and press the play button or <code>Shift+Enter</code>.</p>
           </article>
           <article class="card">
             <h3>If something breaks</h3>
-            <p>Use <code>Kernel > Restart Kernel</code>, then run cells again from the top. Errors are normal in a methods workshop.</p>
+            <p>Use <code>Runtime > Restart session</code>, then run cells again from the top. Errors are normal in a methods workshop.</p>
           </article>
         </div>
       </section>
 
       <section class="section" aria-labelledby="files">
-        <h2 id="files">Workshop Files</h2>
+        <h2 id="files">Workshop Access</h2>
         <table>
           <thead>
             <tr>
-              <th>File or folder</th>
+              <th>Item</th>
               <th>Use</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><code>notebooks/</code></td>
-              <td>Interactive learning notebooks used during the live workshop.</td>
+              <td><a href="https://colab.research.google.com/drive/1Y3qCbD6Gw1KEw-lixQx1rI6WlyWnrnDS?usp=sharing#scrollTo=X3KV4vNDDtG8">CAMeL Tools Colab notebook</a></td>
+              <td>The shared hands-on notebook used during the live workshop.</td>
             </tr>
             <tr>
-              <td><code>data/</code></td>
-              <td>Small teaching samples for corpus exploration.</td>
+              <td>Google or Gmail account</td>
+              <td>Required to open Colab, save a copy, and use Google Drive storage.</td>
             </tr>
             <tr>
-              <td><code>setup/</code></td>
-              <td>Installation guide, quick start, troubleshooting, and installation test.</td>
+              <td>About 6 GB free Google Drive storage</td>
+              <td>Needed for Colab files, package data, and temporary workshop outputs.</td>
             </tr>
             <tr>
-              <td><code>exercises/exercise-sheet.md</code></td>
-              <td>Short practice tasks for individual or pair work.</td>
+              <td>This materials page</td>
+              <td>Interactive concept exercises participants can solve directly in the browser.</td>
             </tr>
             <tr>
               <td><code>readings/</code></td>
-              <td>Essential readings, optional readings, and glossary.</td>
+              <td>Essential readings, optional readings, and glossary for further study.</td>
             </tr>
           </tbody>
         </table>
         <div class="note caution">
-          <strong>Academic caution:</strong> the sample data is for learning how workflows operate. It is not a representative corpus of Arabic.
+          <strong>Academic caution:</strong> workshop data and Colab outputs are for learning how workflows operate. They are not automatically representative evidence about Arabic.
         </div>
       </section>
 
       <section class="section" aria-labelledby="exercise">
-        <h2 id="exercise">Exercise Overview</h2>
+        <h2 id="exercise">Workshop Exercises</h2>
+        <p class="lead">Use these tasks to connect common Arabic studies research questions with appropriate NLP and computational text analysis approaches.</p>
+        <div class="task-list">
+          <article class="task">
+            <div class="task-heading">
+              <span class="task-number">Task 1</span>
+              <div>
+                <h3>NLP Tasks</h3>
+                <p>Select the right NLP task for each common research question.</p>
+              </div>
+            </div>
+            <table class="research-table exercise-table" id="nlp-task-exercise">
+              <thead>
+                <tr>
+                  <th>Research Question</th>
+                  <th>Select an Analytical Approach</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Who was the actual author of text x?</td>
+                  <td><select data-answer="Authorship Attribution" aria-label="Analytical approach for actual author question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Which thematic focuses can be identified in text x or corpus y, and how do they change over time?</td>
+                  <td><select data-answer="Topic Modeling" aria-label="Analytical approach for thematic focus question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>How is a specific topic represented or evaluated in text x or corpus y?</td>
+                  <td><select data-answer="Sentiment Analysis" aria-label="Analytical approach for topic evaluation question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Which entities, such as places, persons, or organizations, appear most frequently in text x or corpus y?</td>
+                  <td><select data-answer="Named Entity Recognition (NER)" aria-label="Analytical approach for frequent entities question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>What kinds of relationships exist between these entities?</td>
+                  <td><select data-answer="Network Analysis" aria-label="Analytical approach for entity relationships question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Which references, allusions, or intertextual connections can be found between texts or within a text?</td>
+                  <td><select data-answer="Intertextuality Analysis" aria-label="Analytical approach for intertextual connections question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>How do different versions of a text differ, and how similar are two texts?</td>
+                  <td><select data-answer="Similarity Analysis" aria-label="Analytical approach for text version difference question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>How do texts differ across periods, genres, or languages?</td>
+                  <td><select data-answer="Comparative Analysis" aria-label="Analytical approach for comparison across periods genres or languages question"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="exercise-actions">
+              <button class="button" type="button" id="check-nlp-task">Check Answers</button>
+              <button class="button secondary" type="button" id="reset-nlp-task">Reset and Shuffle</button>
+              <p class="exercise-score" id="nlp-task-score" aria-live="polite"></p>
+            </div>
+          </article>
+          <article class="task">
+            <div class="task-heading">
+              <span class="task-number">Task 2</span>
+              <div>
+                <h3>Exercise: Literary Studies Cases</h3>
+                <p>Decide whether each case is NLP, not NLP, or mixed.</p>
+              </div>
+            </div>
+            <table class="research-table exercise-table" id="nlp-kind-exercise">
+              <thead>
+                <tr>
+                  <th>Case</th>
+                  <th>Select a Category</th>
+                  <th>Result</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Transcribe a medieval manuscript page into machine-readable text</td>
+                  <td><select data-answer="Not NLP" data-feedback="Mainly HTR/OCR rather than NLP by itself." aria-label="Category for manuscript transcription case"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Detect place names and person names across a corpus of novels</td>
+                  <td><select data-answer="NLP" data-feedback="This is named entity recognition on literary text." aria-label="Category for place and person name detection case"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Cluster sonnets by theme or emotional tone</td>
+                  <td><select data-answer="NLP" data-feedback="This is NLP if the system analyzes the poems' language rather than only metadata." aria-label="Category for clustering sonnets case"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Identify parchment damage, ink bleed, or page layout regions in manuscript images</td>
+                  <td><select data-answer="Not NLP" data-feedback="Mainly computer vision or document analysis." aria-label="Category for manuscript image damage and layout case"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+                <tr>
+                  <td>Answer a question from a TEI-encoded digital edition or archive corpus</td>
+                  <td><select data-answer="Mixed" data-feedback="This may involve text extraction, retrieval, and question answering; NLP becomes central once the text is available." aria-label="Category for TEI edition question answering case"></select></td>
+                  <td class="answer-feedback" aria-live="polite"></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="exercise-actions">
+              <button class="button" type="button" id="check-nlp-kind">Check Answers</button>
+              <button class="button secondary" type="button" id="reset-nlp-kind">Reset and Shuffle</button>
+              <p class="exercise-score" id="nlp-kind-score" aria-live="polite"></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="exercise-overview">
+        <h2 id="exercise-overview">Exercise File Overview</h2>
         <table>
           <thead>
             <tr>
@@ -123,8 +245,129 @@
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <p>The website is a participant-facing guide. Use the downloaded repository during the workshop for notebooks and data files.</p>
+        <p>The website is a participant-facing guide. Use the shared Google Colab notebook during the live workshop.</p>
       </div>
     </footer>
+    <script>
+      (function () {
+        function shuffled(items) {
+          var copy = items.slice();
+          for (var i = copy.length - 1; i > 0; i -= 1) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = copy[i];
+            copy[i] = copy[j];
+            copy[j] = temp;
+          }
+          return copy;
+        }
+
+        function populateSelect(select, answers, placeholderText) {
+          select.innerHTML = "";
+          var placeholder = document.createElement("option");
+          placeholder.value = "";
+          placeholder.textContent = placeholderText;
+          select.appendChild(placeholder);
+
+          shuffled(answers).forEach(function (answer) {
+            var option = document.createElement("option");
+            option.value = answer;
+            option.textContent = answer;
+            select.appendChild(option);
+          });
+        }
+
+        function setupExercise(settings) {
+          var selects = Array.prototype.slice.call(document.querySelectorAll(settings.tableSelector + " select"));
+          var checkButton = document.getElementById(settings.checkButtonId);
+          var resetButton = document.getElementById(settings.resetButtonId);
+          var score = document.getElementById(settings.scoreId);
+
+          function clearFeedback() {
+            selects.forEach(function (select) {
+              var row = select.closest("tr");
+              var feedback = row.querySelector(".answer-feedback");
+              row.classList.remove("is-correct", "is-incorrect");
+              feedback.textContent = "";
+            });
+            score.textContent = "";
+          }
+
+          function resetExercise() {
+            selects.forEach(function (select) {
+              populateSelect(select, settings.answers, settings.placeholderText);
+            });
+            clearFeedback();
+          }
+
+          function checkAnswers() {
+            var correct = 0;
+
+            selects.forEach(function (select) {
+              var row = select.closest("tr");
+              var feedback = row.querySelector(".answer-feedback");
+              var isCorrect = select.value === select.dataset.answer;
+
+              row.classList.remove("is-correct", "is-incorrect");
+
+              if (!select.value) {
+                feedback.textContent = "Select one";
+                row.classList.add("is-incorrect");
+                return;
+              }
+
+              if (isCorrect) {
+                correct += 1;
+                feedback.textContent = select.dataset.feedback ? "Correct: " + select.dataset.feedback : "Correct";
+                row.classList.add("is-correct");
+              } else {
+                feedback.textContent = "Try again";
+                row.classList.add("is-incorrect");
+              }
+            });
+
+            score.textContent = correct + " of " + selects.length + " correct";
+          }
+
+          selects.forEach(function (select) {
+            populateSelect(select, settings.answers, settings.placeholderText);
+            select.addEventListener("change", clearFeedback);
+          });
+
+          checkButton.addEventListener("click", checkAnswers);
+          resetButton.addEventListener("click", resetExercise);
+        }
+
+        setupExercise({
+          tableSelector: "#nlp-task-exercise",
+          checkButtonId: "check-nlp-task",
+          resetButtonId: "reset-nlp-task",
+          scoreId: "nlp-task-score",
+          placeholderText: "Choose an approach",
+          answers: [
+            "Authorship Attribution",
+            "Topic Modeling",
+            "Sentiment Analysis",
+            "Named Entity Recognition (NER)",
+            "Network Analysis",
+            "Intertextuality Analysis",
+            "Similarity Analysis",
+            "Comparative Analysis"
+          ]
+        });
+
+        setupExercise({
+          tableSelector: "#nlp-kind-exercise",
+          checkButtonId: "check-nlp-kind",
+          resetButtonId: "reset-nlp-kind",
+          scoreId: "nlp-kind-score",
+          placeholderText: "Choose a category",
+          answers: [
+            "NLP",
+            "Not NLP",
+            "Mixed"
+          ]
+        });
+      }());
+    </script>
   </body>
 </html>

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Setup | Arabic Studies and NLP Workshop</title>
-    <meta name="description" content="Beginner-friendly setup instructions for the Arabic Studies and NLP workshop.">
+    <title>Colab Setup | Arabic Studies and NLP Workshop</title>
+    <meta name="description" content="Beginner-friendly Google Colab preparation instructions for the Arabic Studies and NLP workshop.">
     <link rel="stylesheet" href="assets/site.css">
   </head>
   <body>
@@ -25,14 +25,14 @@
       <section class="section">
         <p class="eyebrow">Before the workshop</p>
         <h1>Prepare Your Laptop</h1>
-        <p class="lead">These steps create a separate Python environment for the workshop and open JupyterLab in your browser.</p>
+        <p class="lead">You do not need to download the repository or install Python. The hands-on work will happen in Google Colab.</p>
         <div class="note">
-          <strong>If setup fails:</strong> bring your laptop anyway. You can still follow the workshop through the instructor's screen or by pairing with someone whose setup works.
+          <strong>Before you arrive:</strong> bring a laptop, use or create a Gmail/Google account, and make sure the account has about 6 GB of free Google Drive storage.
         </div>
       </section>
 
       <section class="section" aria-labelledby="overview">
-        <h2 id="overview">Setup Overview</h2>
+        <h2 id="overview">Colab Readiness Checklist</h2>
         <table>
           <thead>
             <tr>
@@ -44,52 +44,37 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td>Install Miniconda or Anaconda</td>
-              <td><code>conda --version</code> prints a version number</td>
+              <td>Bring your laptop</td>
+              <td>You can connect to the workshop Wi-Fi and open a browser</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>Open Terminal or Anaconda Prompt</td>
-              <td>You can type commands</td>
+              <td>Use an existing Gmail/Google account or create one</td>
+              <td>You can sign in at <code>accounts.google.com</code></td>
             </tr>
             <tr>
               <td>3</td>
-              <td>Move into the workshop folder</td>
-              <td><code>README.md</code> and <code>environment.yml</code> are visible</td>
+              <td>Check Google Drive storage</td>
+              <td>About 6 GB is available for Colab files and runtime data</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>Create and activate the environment</td>
-              <td>The prompt shows <code>arabic-studies-nlp-workshop</code></td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Start JupyterLab</td>
-              <td>A browser window opens</td>
+              <td>Open the workshop Colab notebook</td>
+              <td>The notebook opens in your browser</td>
             </tr>
           </tbody>
         </table>
       </section>
 
       <section class="section" aria-labelledby="commands">
-        <h2 id="commands">Commands</h2>
-        <p>Open Terminal on macOS or Linux. On Windows, open Anaconda Prompt.</p>
-        <p>Move into the workshop folder. If the folder is on your Desktop, the command may look like this:</p>
-        <pre><code>cd Desktop/arabic-studies-nlp-workshop</code></pre>
-        <p>Check that you are in the right place:</p>
-        <pre><code>ls</code></pre>
-        <p>On Windows Anaconda Prompt, use:</p>
-        <pre><code>dir</code></pre>
-        <p>Create the workshop environment:</p>
-        <pre><code>conda env create -f environment.yml</code></pre>
-        <p>Activate it:</p>
-        <pre><code>conda activate arabic-studies-nlp-workshop</code></pre>
-        <p>Start JupyterLab:</p>
-        <pre><code>jupyter lab</code></pre>
+        <h2 id="commands">Open the Workshop Notebook</h2>
+        <p>Use this shared Google Colab notebook during the workshop:</p>
+        <p><a class="button" href="https://colab.research.google.com/drive/1Y3qCbD6Gw1KEw-lixQx1rI6WlyWnrnDS?usp=sharing#scrollTo=X3KV4vNDDtG8">Open CAMeL Tools Colab Notebook</a></p>
+        <p>When it opens, sign in to your Google account if prompted. If Colab asks to save a copy, save it to your own Drive so your edits and outputs belong to your account.</p>
       </section>
 
       <section class="section" aria-labelledby="troubleshooting">
-        <h2 id="troubleshooting">Troubleshooting</h2>
+        <h2 id="troubleshooting">Colab Troubleshooting</h2>
         <table>
           <thead>
             <tr>
@@ -99,24 +84,24 @@
           </thead>
           <tbody>
             <tr>
-              <td><code>conda</code> is not recognized</td>
-              <td>Use Anaconda Prompt on Windows, or reopen Terminal after installing Conda.</td>
+              <td>You cannot open the notebook</td>
+              <td>Check that you are signed in to a Google account and try Chrome, Firefox, Edge, or Safari.</td>
             </tr>
             <tr>
-              <td><code>environment.yml</code> is missing</td>
-              <td>Move into the <code>arabic-studies-nlp-workshop</code> folder.</td>
+              <td>Google Drive says storage is full</td>
+              <td>Free space in Drive or use another Google account with about 6 GB available.</td>
             </tr>
             <tr>
-              <td><code>camel_tools</code> does not import</td>
-              <td>Activate <code>arabic-studies-nlp-workshop</code>.</td>
+              <td>A cell asks for permission</td>
+              <td>Read the prompt, then approve access only when it is needed for your own notebook and Drive files.</td>
             </tr>
             <tr>
-              <td>JupyterLab does not open</td>
-              <td>Copy the <code>http://localhost:</code> link from the terminal into your browser.</td>
+              <td>The runtime disconnects</td>
+              <td>Reconnect from the Colab toolbar and rerun earlier cells if needed.</td>
             </tr>
             <tr>
               <td>A notebook cell runs for a long time</td>
-              <td>It may be downloading a model. Ask before interrupting it.</td>
+              <td>It may be installing CAMeL Tools or downloading model data. Ask before interrupting it.</td>
             </tr>
           </tbody>
         </table>
@@ -124,7 +109,7 @@
 
       <section class="section" aria-labelledby="backup">
         <h2 id="backup">If Technology Fails</h2>
-        <p>Installation problems are common in first digital methods workshops. The workshop can continue even if not every laptop works perfectly.</p>
+        <p>Online notebook problems are common in first digital methods workshops. The workshop can continue even if not every account or runtime works perfectly.</p>
         <table>
           <thead>
             <tr>
@@ -134,32 +119,32 @@
           </thead>
           <tbody>
             <tr>
-              <td>Many installations fail</td>
+              <td>Many Colab sessions fail</td>
               <td>Follow from the shared screen and focus on concepts, outputs, and interpretation.</td>
             </tr>
             <tr>
-              <td>Some installations fail</td>
-              <td>Pair with someone whose setup works, or continue conceptually until the next pause.</td>
+              <td>Some accounts cannot save a copy</td>
+              <td>Pair with someone whose Colab copy works, or continue conceptually until the next pause.</td>
             </tr>
             <tr>
               <td>Internet is slow</td>
-              <td>Skip live model downloads and discuss model behavior conceptually.</td>
+              <td>Keep the instructor's shared screen as the reference and rerun cells when the connection improves.</td>
             </tr>
             <tr>
-              <td>JupyterLab fails</td>
-              <td>Read notebooks as structured documents and compare expected outputs with the shared screen.</td>
+              <td>Runtime setup is slow</td>
+              <td>Discuss the expected output while package setup or downloads continue in the background.</td>
             </tr>
           </tbody>
         </table>
         <div class="note">
-          <strong>Remember:</strong> the core goal is to understand the workflow and its limits, not to prove that every computer can run every package during the session.
+          <strong>Remember:</strong> the core goal is to understand the workflow and its limits, not to prove that every account can run every cell at the same speed.
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <p>Need the full setup files? See the repository files in <code>setup/</code> after downloading the workshop materials.</p>
+        <p>No local installation is required for participants. Use the shared Colab notebook during the live workshop.</p>
       </div>
     </footer>
   </body>
