@@ -10,8 +10,8 @@ These readings are selected for orientation rather than mastery. Beginners may s
 | CAMeL Tools documentation: https://camel-tools.readthedocs.io | Arabic-aware NLP tools used in the workshop |
 | OpenITI project: https://openiti.org | Large-scale corpus context for Arabic and Islamicate texts |
 | KITAB project: https://kitab-project.org | Corpus research, text reuse, and Arabic textual traditions |
-| Beginner corpus methods in digital humanities | General method vocabulary |
-| Humanities-oriented Arabic NLP overview | Morphology, dialects, script, and resource issues |
+| [Introduction to Large Language Models](url) | Hugging Face Course on LLMs and NLP |
+| [Having Beer after Prayer? Measuring Cultural Bias in Large Language Models](url) | Research Paper on LLMs Cultural Bias |
 
 ## Reading Questions
 
