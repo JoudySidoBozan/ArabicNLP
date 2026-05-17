@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resources | Arabic Studies and NLP Workshop</title>
-    <meta name="description" content="Glossary and participant readings for the Arabic Studies and NLP workshop.">
+    <meta name="description" content="Glossary, copyable NLP task examples, and participant readings for the Arabic Studies and NLP workshop.">
     <link rel="stylesheet" href="assets/site.css">
   </head>
   <body>
@@ -25,7 +25,7 @@
       <section class="section">
         <p class="eyebrow">Glossary and readings</p>
         <h1>Resources</h1>
-        <p class="lead">Use this page when a technical term appears in the Colab notebook, setup instructions, or discussion.</p>
+        <p class="lead">Use this page when a technical term appears in the Colab notebook, setup instructions, examples, or discussion.</p>
       </section>
 
       <section class="section" aria-labelledby="glossary">
@@ -58,6 +58,183 @@
             <tr><td>Bias</td><td>A systematic limitation or imbalance in data, tools, or interpretation.</td></tr>
           </tbody>
         </table>
+      </section>
+
+      <section class="section" aria-labelledby="sentence-generator">
+        <p class="eyebrow">Copyable practice text</p>
+        <h2 id="sentence-generator">Sentence Generator for NLP Tasks</h2>
+        <p class="lead">Students can copy these short Arabic examples into the notebook when testing NLP workflows.</p>
+        <div class="example-bank">
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Normalization Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="normalization-examples">Copy</button>
+            </div>
+            <pre id="normalization-examples" class="arabic-example" dir="rtl"><code>ان الصلوة عماد الدين
+هذا كتاب فى الفقه
+قال الامام ابو حنيفه
+الهدى الى سواء السبيل
+وآتوا الزكوة للفقراء
+المسلمين فى الاندلس
+ذلك راى الفقهاء قديما
+وجاء القاضى الى المسجد
+هذا باب فى العقيده
+الرحمن على العرش استوى</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>OCR Error Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="ocr-error-examples">Copy</button>
+            </div>
+            <pre id="ocr-error-examples" class="arabic-example" dir="rtl"><code>الحـكـم الـشـرعى
+وقا ل ال عا لم
+الفقهاءفـيالمسـألةاختلفوا
+الكتا ب المشهو ر
+فـى هـذا البـاب
+العلما ء قالوا ذلك
+وذكـرالمصنففـىالكتاب
+المسـألةالثانيـة
+الحديـثالصحيـح
+وقـالالشافعىرحمهالله</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Tokenization Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="tokenization-examples">Copy</button>
+            </div>
+            <pre id="tokenization-examples" class="arabic-example" dir="rtl"><code>وبالمدرسة
+فسيكتبونها
+وللشافعيةقول
+وباجتهادهم
+فسيقرؤونها
+وبمساجدهم
+وللفقهاءآراء
+أوبعلمائهم
+فاستخرجناها
+وباستنباطاتهم</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Lemmatization Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="lemmatization-examples">Copy</button>
+            </div>
+            <pre id="lemmatization-examples" class="arabic-example" dir="rtl"><code>يكتبون
+مكتوبات
+الكاتبين
+العلماء
+العالمين
+المجتهدين
+اجتهادات
+المسلمين
+المؤمنون
+دارسين</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Morphological Analysis Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="morphological-analysis-examples">Copy</button>
+            </div>
+            <pre id="morphological-analysis-examples" class="arabic-example" dir="rtl"><code>فسيكتبونها
+واستغفرناهم
+أفيستنبطونه
+وسيعلمونهم
+فاستخرجتموها
+أفنلزمكموها
+وسيقرؤونها
+فاستنبطناها
+وليكتبنها
+فليستخرجوها</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Named Entity Recognition Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="ner-examples">Copy</button>
+            </div>
+            <pre id="ner-examples" class="arabic-example" dir="rtl"><code>قال أبو حنيفة في بغداد
+زار الإمام النووي دمشق
+ذكر الطبري ذلك
+دخل الشافعي مكة
+روى البخاري الحديث
+انتقل ابن رشد الى قرطبة
+قرأ السيوطي الكتاب
+اجتمع العلماء في بغداد
+سافر ابن خلدون الى مصر
+قال مالك بن انس ذلك</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Semantic Ambiguity Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="semantic-ambiguity-examples">Copy</button>
+            </div>
+            <pre id="semantic-ambiguity-examples" class="arabic-example" dir="rtl"><code>الهوى يفسد القلب
+القياس أصل معتبر
+الفتنة اشد من القتل
+النور في القلوب
+العقل يدل على الحكمة
+الحق ظاهر بين الناس
+الميزان يوم القيامة
+الطريق الى الله واضح
+الظاهر يدل على المعنى
+الروح من امر ربي</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Isnād / Chain Analysis Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="isnad-chain-analysis-examples">Copy</button>
+            </div>
+            <pre id="isnad-chain-analysis-examples" class="arabic-example" dir="rtl"><code>حدثنا مالك عن نافع عن ابن عمر
+روى البخاري عن مسلم
+حدثنا عبد الله بن المبارك
+قال سفيان عن الزهري
+اخبرنا الشافعي عن مالك
+سمعت ابن حنبل يقول
+حدثنا ابو داود عن الترمذي
+روى ابن ماجه الحديث
+قال الراوي عن ابيه
+اخبرنا الثوري عن الاعمش</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Topic Modeling Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="topic-modeling-examples">Copy</button>
+            </div>
+            <pre id="topic-modeling-examples" class="arabic-example" dir="rtl"><code>والاجماع أصل من أصول الاستدلال
+والجرح والتعديل من علوم الحديث
+القياس عند الفقهاء معتبر
+الحديث الصحيح مقدم
+اختلف العلماء في المسألة
+هذا باب في العقيدة
+ذكر الفقهاء شروط البيع
+الطهارة شرط للصلاة
+العلم نور يهدي الناس
+التفسير من علوم القرآن</code></pre>
+          </article>
+
+          <article class="example-card">
+            <div class="example-card-heading">
+              <h3>Combined Difficult Manuscript Examples</h3>
+              <button class="button secondary copy-button" type="button" data-copy-target="combined-difficult-manuscript-examples">Copy</button>
+            </div>
+            <pre id="combined-difficult-manuscript-examples" class="arabic-example" dir="rtl"><code>فانقيللهكيفيجوزذلك
+وبا لاجتهادات المختلفه
+وقا ل الفقيه فـى ذلك
+فاستخرجـواالاحكاممنه
+العلما ءاختلفوافـىالمسألة
+وذكـرالمصنفذلكفـىكتابه
+فسيقرؤونهافىالمجالس
+واختلفتاقوالالفقهاء
+حدثناعبداللهبنالمبارك
+الصلوةوالزكوةمنشعائرالدين</code></pre>
+          </article>
+        </div>
       </section>
 
       <section class="section" aria-labelledby="readings">
@@ -103,5 +280,52 @@
         <p>Use the glossary during the workshop whenever a term feels unfamiliar.</p>
       </div>
     </footer>
+    <script>
+      (function () {
+        function fallbackCopy(text) {
+          var textArea = document.createElement("textarea");
+          textArea.value = text;
+          textArea.setAttribute("readonly", "");
+          textArea.style.position = "absolute";
+          textArea.style.left = "-9999px";
+          document.body.appendChild(textArea);
+          textArea.select();
+          document.execCommand("copy");
+          document.body.removeChild(textArea);
+        }
+
+        function setButtonStatus(button, text) {
+          button.textContent = text;
+          window.setTimeout(function () {
+            button.textContent = "Copy";
+          }, 1800);
+        }
+
+        Array.prototype.slice.call(document.querySelectorAll(".copy-button")).forEach(function (button) {
+          button.addEventListener("click", function () {
+            var target = document.getElementById(button.dataset.copyTarget);
+            var text = target ? target.textContent.trim() : "";
+
+            if (!text) {
+              setButtonStatus(button, "Unavailable");
+              return;
+            }
+
+            if (navigator.clipboard && window.isSecureContext) {
+              navigator.clipboard.writeText(text).then(function () {
+                setButtonStatus(button, "Copied");
+              }).catch(function () {
+                fallbackCopy(text);
+                setButtonStatus(button, "Copied");
+              });
+              return;
+            }
+
+            fallbackCopy(text);
+            setButtonStatus(button, "Copied");
+          });
+        });
+      }());
+    </script>
   </body>
 </html>
